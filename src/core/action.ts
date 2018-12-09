@@ -1,7 +1,7 @@
 import Immutable from './immutable'
 
 import {ActionObserver} from './observers'
-import {from, Observable, Observer} from 'rxjs'
+import {empty, from, Observable, Observer, throwError} from 'rxjs'
 import {catchError, flatMap, map, share, skipWhile} from 'rxjs/operators'
 import {ReplaceableState} from './replaceable-state'
 import {State} from './state'
@@ -104,19 +104,21 @@ export class Action {
             return new Promise(resolve => resolve())
         }
 
-        let observable: Observable<any> = fromArray(subscriptions)
+        let observable: Observable<any> = from(subscriptions)
 
         console.log('observable', observable)
 
         // convert 'Observable' returned by action subscribers to state
-        observable.pipe(
+        observable = observable.pipe(
         flatMap((actionObserver: ActionObserver): Observable<any> => {
                 console.log('flatMap', actionObserver)
                 console.log('State.current', State.current)
+                console.log('actionObserver', actionObserver)
+
                 const result = actionObserver(State.current, this)
                 if (!(result instanceof Observable || result instanceof Promise)) {
-                    return from((observer: Observer<any>) => {
-                        console.log('result', result)
+                    console.log('change', result)
+                    return Observable.create((observer: Observer<any>) => {
                         observer.next(result)
                         observer.complete()
                     })
@@ -154,16 +156,12 @@ export class Action {
                 }
                 return state
             }),
+            catchError(err => throwError(err) ),
             // make this sharable (to avoid multiple copies of this observable being created)
-            share(),
-            catchError( (error: any, caught: Observable<any>) => {
-                console.log('error', error);
-                return undefined;
-            }))
+            share())
 
-        console.log('Pipe Done', observable.forEach(() => console.log('each')))
+        console.log('Pipe Done')
 
-        observable.subscribe(() => console.log('here'), error => console.log(error), () => 'compleetz');
 
         return new Promise((resolve, reject) => {
             // to trigger observable

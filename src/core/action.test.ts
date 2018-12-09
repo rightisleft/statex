@@ -12,7 +12,7 @@ describe('Action', () => {
   class UnrelatedAction extends Action { }
 
   beforeEach(() => {
-    initialize({dogs: []})
+    initialize({})
   })
 
   test('should call a reducer function when an action is dispatched', () => {
