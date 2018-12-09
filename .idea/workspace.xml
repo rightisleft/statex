@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b13b4e8-0de8-4cba-baa2-dd62bb3b099a" name="Default Changelist" comment="">
+    <list default="true" id="a7ee5dd4-3dec-4d5e-850b-302e3641674a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/action.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/action.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/action.ts" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,12 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/action.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="223" column="23" selection-start-line="223" selection-start-column="11" selection-end-line="223" selection-end-column="23" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -31,45 +37,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/action.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="163" column="79" lean-forward="true" selection-start-line="163" selection-start-column="79" selection-end-line="163" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="89">
+              <caret line="158" column="48" selection-start-line="158" selection-start-column="48" selection-end-line="158" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>.map</find>
-      <find>rx</find>
-      <find>/add</find>
-      <find>empty</find>
-      <find>.share</find>
-      <find>Simulated Error'</find>
-      <find>Simulated Error</find>
-      <find>'Simulated Error'</find>
-      <find>SampleAction</find>
-      <find>construc</find>
-      <find>simu</find>
-      <find>Obser</find>
-      <find>Observable.</find>
-      <find>subs</find>
-      <find>act</find>
-      <find>sourc</find>
-      <find>root</find>
-      <find>tsx</find>
-      <find>console.log</find>
-      <find>white</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
-      <dir>$PROJECT_DIR$/src/core</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,36 +51,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/core/decorators.ts" />
-        <option value="$PROJECT_DIR$/src/core/observers.ts" />
-        <option value="$PROJECT_DIR$/src/test/action.test.ts" />
-        <option value="$PROJECT_DIR$/src/core/state.ts" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/jest.config.js" />
-        <option value="$PROJECT_DIR$/tslint.json" />
-        <option value="$PROJECT_DIR$/src/core/action.test.ts" />
         <option value="$PROJECT_DIR$/src/core/action.ts" />
       </list>
     </option>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +117,6 @@
             <path>
               <item name="statex" type="b2602c69:ProjectViewProjectNode" />
               <item name="statex" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="rxjs" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="operators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="statex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,12 +129,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/usr/local/bin/ts-node" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
@@ -189,14 +140,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="/usr/local/lib/node_modules/typescript/lib" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/core" />
-      <recent name="$PROJECT_DIR$/src/test" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Action.should call a reducer function when an action is dispatched">
+  <component name="RunManager" selected="Jest.Action">
     <configuration name="Action" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -238,25 +183,40 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="jest.config.js" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jest.config.js" />
+    <configuration name="Action.should call all reducer functions when an action is dispatched" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="ALL" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/core/action.test.ts" />
+      <test-names>
+        <test-name value="Action" />
+        <test-name value="should call all reducer functions when an action is dispatched" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Jest.jest.config.js" />
-      <item itemvalue="Jest.Action.should call a reducer function when an action is dispatched" />
-      <item itemvalue="Jest.Action" />
-    </list>
+    <configuration name="Action.should not fail even if the reducer function reject with an error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/core/action.test.ts" />
+      <test-names>
+        <test-name value="Action" />
+        <test-name value="should not fail even if the reducer function reject with an error" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Action.should call a reducer function when an action is dispatched" />
         <item itemvalue="Jest.Action" />
+        <item itemvalue="Jest.Action.should not fail even if the reducer function reject with an error" />
+        <item itemvalue="Jest.Action.should call all reducer functions when an action is dispatched" />
+        <item itemvalue="Jest.Action.should call a reducer function when an action is dispatched" />
       </list>
     </recent_temporary>
   </component>
@@ -265,77 +225,70 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b13b4e8-0de8-4cba-baa2-dd62bb3b099a" name="Default Changelist" comment="" />
-      <created>1544293489267</created>
+      <changelist id="a7ee5dd4-3dec-4d5e-850b-302e3641674a" name="Default Changelist" comment="" />
+      <created>1544397417437</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544293489267</updated>
-      <workItem from="1544293490601" duration="281000" />
-      <workItem from="1544293776529" duration="211000" />
-      <workItem from="1544293990597" duration="171000" />
-      <workItem from="1544294320233" duration="2836000" />
-      <workItem from="1544384258591" duration="5610000" />
-      <workItem from="1544389933539" duration="225000" />
-      <workItem from="1544390170018" duration="24000" />
-      <workItem from="1544390196418" duration="3895000" />
+      <updated>1544397417437</updated>
+      <workItem from="1544397421368" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 16h 54m 28s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_call_all_reducer_functions_when_an_action_is_dispatched - 2018.12.09 at 18h 26m 55s.xml">
+      <configuration name="Action.should call all reducer functions when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 16h 58m 54s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_call_all_reducer_functions_when_an_action_is_dispatched - 2018.12.09 at 18h 27m 06s.xml">
+      <configuration name="Action.should call all reducer functions when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 00m 00s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_call_all_reducer_functions_when_an_action_is_dispatched - 2018.12.09 at 18h 27m 44s.xml">
+      <configuration name="Action.should call all reducer functions when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 04m 21s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_call_all_reducer_functions_when_an_action_is_dispatched - 2018.12.09 at 18h 29m 00s.xml">
+      <configuration name="Action.should call all reducer functions when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 05m 31s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action - 2018.12.09 at 18h 29m 23s.xml">
+      <configuration name="Action" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 10m 37s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_not_fail_even_if_the_reducer_function_reject_with_an_error - 2018.12.09 at 18h 30m 22s.xml">
+      <configuration name="Action.should not fail even if the reducer function reject with an error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 12m 43s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_not_fail_even_if_the_reducer_function_reject_with_an_error - 2018.12.09 at 18h 32m 29s.xml">
+      <configuration name="Action.should not fail even if the reducer function reject with an error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 16m 14s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_not_fail_even_if_the_reducer_function_reject_with_an_error - 2018.12.09 at 18h 33m 27s.xml">
+      <configuration name="Action.should not fail even if the reducer function reject with an error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 20m 00s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_not_fail_even_if_the_reducer_function_reject_with_an_error - 2018.12.09 at 18h 33m 56s.xml">
+      <configuration name="Action.should not fail even if the reducer function reject with an error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 20m 36s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Action_should_not_fail_even_if_the_reducer_function_reject_with_an_error - 2018.12.09 at 18h 36m 48s.xml">
+      <configuration name="Action.should not fail even if the reducer function reject with an error" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13253000" />
+    <option name="totallyTimeSpent" value="1202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,219 +297,56 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/core/action.ts</url>
-          <line>97</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/core/action.ts</url>
-          <line>95</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-11" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/constance.test.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/state.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/@angular/Store.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/@angular/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/@angular/data-observer.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/observable/empty.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/state-selector.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/replaceable-state.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/immutable.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/decorators.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jest-jasmine2/build/jasmine_async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="123" column="344" selection-start-line="123" selection-start-column="344" selection-end-line="123" selection-end-column="344" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/state.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="79" selection-start-column="6" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/constance.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/process.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/clean.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ts-jest/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="284">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/observable/from.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/jest/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+        <state relative-caret-position="128">
+          <caret line="461" column="8" selection-start-line="461" selection-start-column="8" selection-end-line="461" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/operators/share.d.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/observable/throwError.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/init.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/observable/fromArray.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/observers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+        <state relative-caret-position="281">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/action.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="223" column="23" selection-start-line="223" selection-start-column="11" selection-end-line="223" selection-end-column="23" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/Observable.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/action.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="163" column="79" lean-forward="true" selection-start-line="163" selection-start-column="79" selection-end-line="163" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="89">
+          <caret line="158" column="48" selection-start-line="158" selection-start-column="48" selection-end-line="158" selection-end-column="48" />
         </state>
       </provider>
     </entry>
