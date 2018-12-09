@@ -6,6 +6,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
     "declaration": true,
     "strictNullChecks": false,
     "baseUrl": "./src",
@@ -15,7 +16,8 @@
       "es6"
     ],
     "types": [
-      "node"
+      "node",
+      "jest"
     ]
   },
   "exclude": [

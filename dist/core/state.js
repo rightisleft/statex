@@ -1,9 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var immutable_1 = require("./immutable");
-require("rxjs/add/operator/share");
-var BehaviorSubject_1 = require("rxjs/BehaviorSubject");
-var Observable_1 = require("rxjs/Observable");
+var rxjs_1 = require("rxjs");
+var operators_1 = require("rxjs/operators");
 /**
  * Defines a stream for changing state in a statex application
  *
@@ -28,11 +27,11 @@ var Observable_1 = require("rxjs/Observable");
  * @class StateStream
  * @extends {BehaviorSubject}
  */
-var State = (function () {
+var State = /** @class */ (function () {
     function State() {
         var _this = this;
         this.currentState = immutable_1.default.from({});
-        this.subject = new BehaviorSubject_1.BehaviorSubject(this.currentState);
+        this.subject = new rxjs_1.BehaviorSubject(this.currentState);
         this.subject.subscribe(function (state) { return _this.currentState = state; });
     }
     Object.defineProperty(State, "current", {
@@ -67,7 +66,7 @@ var State = (function () {
      */
     State.select = function (selector) {
         var _this = this;
-        return Observable_1.Observable.create(function (subscriber) {
+        return rxjs_1.Observable.create(function (subscriber) {
             var previousState;
             var subscription = _this.subscribe(function (state) {
                 var selection = select(state, selector);
@@ -77,11 +76,11 @@ var State = (function () {
                 }
             }, undefined, undefined);
             return subscription;
-        }).share();
+        }).pipe(operators_1.share());
     };
+    State.state = new State();
     return State;
 }());
-State.state = new State();
 exports.State = State;
 /**
  * Run selector function on the given state and return it's result. Return undefined if an error occurred
@@ -102,3 +101,4 @@ function select(state, selector) {
         return undefined;
     }
 }
+//# sourceMappingURL=state.js.map

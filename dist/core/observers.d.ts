@@ -1,5 +1,5 @@
 import { Action } from './action';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 /**
  * Observer for next value from observable (used by subscribe() function)
  *

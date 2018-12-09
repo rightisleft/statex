@@ -5,3 +5,4 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./dist/core"));
 __export(require("./dist/@react/inject"));
+//# sourceMappingURL=index.js.map

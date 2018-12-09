@@ -7,7 +7,7 @@ var constance_1 = require("../core/constance");
  * @export
  * @class Store
  */
-var Store = (function () {
+var Store = /** @class */ (function () {
     function Store() {
         var _this = this;
         if (!Reflect.hasMetadata(constance_1.STATEX_ACTION_KEY, this))
@@ -18,3 +18,4 @@ var Store = (function () {
     return Store;
 }());
 exports.Store = Store;
+//# sourceMappingURL=Store.js.map

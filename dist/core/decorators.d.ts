@@ -1,6 +1,6 @@
 import { Action } from './action';
 import { StateSelector } from './state-selector';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 /**
  * Bind data for give key and target using a selector function
  *

@@ -21,3 +21,4 @@ function initialize(initialState, options) {
     }
 }
 exports.initialize = initialize;
+//# sourceMappingURL=init.js.map

@@ -1,7 +1,5 @@
-import 'rxjs/add/operator/share';
-import { Observable } from 'rxjs/Observable';
 import { StateSelector } from './state-selector';
-import { Subscription } from 'rxjs/Subscription';
+import { Observable, Subscription } from 'rxjs';
 /**
  * Defines a stream for changing state in a statex application
  *

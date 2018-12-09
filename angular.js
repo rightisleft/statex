@@ -6,3 +6,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./dist/core"));
 __export(require("./dist/@angular/data-observer"));
 __export(require("./dist/@angular/Store"));
+//# sourceMappingURL=index.js.map
