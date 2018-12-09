@@ -1,7 +1,7 @@
 import { bindData, action } from './decorators'
 import { State } from './state'
 import { Action } from './action'
-import { STATEX_ACTION_KEY } from '../@angular/index'
+import { STATEX_ACTION_KEY } from '../@angular'
 
 describe('bindData', () => {
 

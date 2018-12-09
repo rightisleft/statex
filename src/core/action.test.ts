@@ -1,17 +1,18 @@
 import { Action } from './action'
-import { Observer } from 'rxjs/Observer'
 import { initialize } from './init'
-import { Observable } from 'rxjs/Observable'
 import { ReplaceableState } from './replaceable-state'
 import { State } from './state'
-
+import {Observable, Observer} from 'rxjs'
+/**
+ * @jest-environment node
+ */
 describe('Action', () => {
 
   class TestAction extends Action { }
   class UnrelatedAction extends Action { }
 
   beforeEach(() => {
-    initialize({})
+    initialize({dogs: []})
   })
 
   test('should call a reducer function when an action is dispatched', () => {

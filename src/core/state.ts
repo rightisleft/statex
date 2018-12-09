@@ -1,10 +1,8 @@
 import Immutable from './immutable'
 
-import 'rxjs/add/operator/share'
-import { BehaviorSubject } from 'rxjs/BehaviorSubject'
-import { Observable } from 'rxjs/Observable'
 import { StateSelector } from './state-selector'
-import { Subscription } from 'rxjs/Subscription'
+import {BehaviorSubject, Observable, Subscription} from 'rxjs'
+import {share} from 'rxjs/operators'
 
 /**
  * Defines a stream for changing state in a statex application
@@ -79,7 +77,9 @@ export class State {
       }, undefined, undefined)
 
       return subscription
-    }).share()
+    }).pipe(
+        share()
+    )
   }
 
   constructor() {
