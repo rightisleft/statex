@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b13b4e8-0de8-4cba-baa2-dd62bb3b099a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/cSpell.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@angular/Store.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@angular/Store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@angular/data-observer.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@angular/data-observer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@angular/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@angular/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@electron/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@electron/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@electron/init.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@electron/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@react/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@react/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@react/inject.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/@react/inject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/action.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/constance.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/constance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/decorators.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/decorators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/immutable.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/immutable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/init.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/observers.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/observers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/replaceable-state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/replaceable-state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/state-selector.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/state-selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/state.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/store.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/core/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/electron.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/electron.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/action.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/action.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/constance.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/constance.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/decorators.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/decorators.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/decorators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/decorators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/observers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/observers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/state.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/state.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/action.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="198">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -85,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/action.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="163" column="79" lean-forward="true" selection-start-line="163" selection-start-column="79" selection-end-line="163" selection-end-column="79" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -138,8 +84,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/jest.config.js" />
-        <option value="$PROJECT_DIR$/src/core/action.test.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/src/core/action.test.ts" />
         <option value="$PROJECT_DIR$/src/core/action.ts" />
       </list>
     </option>
@@ -331,26 +277,11 @@
       <workItem from="1544384258591" duration="5610000" />
       <workItem from="1544389933539" duration="225000" />
       <workItem from="1544390170018" duration="24000" />
-      <workItem from="1544390196418" duration="2924000" />
+      <workItem from="1544390196418" duration="3895000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 16h 38m 25s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Action - 2018.12.09 at 16h 38m 40s.xml">
-      <configuration name="Action" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Action - 2018.12.09 at 16h 44m 08s.xml">
-      <configuration name="Action" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Action - 2018.12.09 at 16h 45m 53s.xml">
-      <configuration name="Action" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 16h 48m 48s.xml">
-      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 16h 54m 28s.xml">
       <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -366,9 +297,24 @@
     <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 05m 31s.xml">
       <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 10m 37s.xml">
+      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 12m 43s.xml">
+      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 16m 14s.xml">
+      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 20m 00s.xml">
+      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Action_should_call_a_reducer_function_when_an_action_is_dispatched - 2018.12.09 at 17h 20m 36s.xml">
+      <configuration name="Action.should call a reducer function when an action is dispatched" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12282000" />
+    <option name="totallyTimeSpent" value="13253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -403,12 +349,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/core/action.ts</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/core/action.ts</url>
-          <line>94</line>
+          <line>95</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
@@ -563,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/Observable.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/observable/fromArray.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -596,18 +535,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/action.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="198">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/internal/Observable.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/action.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="163" column="79" lean-forward="true" selection-start-line="163" selection-start-column="79" selection-end-line="163" selection-end-column="79" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

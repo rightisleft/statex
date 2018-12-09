@@ -2,9 +2,10 @@ import Immutable from './immutable'
 
 import {ActionObserver} from './observers'
 import {from, Observable, Observer} from 'rxjs'
-import {flatMap, map, share, skipWhile} from 'rxjs/operators'
+import {catchError, flatMap, map, share, skipWhile} from 'rxjs/operators'
 import {ReplaceableState} from './replaceable-state'
 import {State} from './state'
+import {fromArray} from 'rxjs/internal/observable/fromArray'
 
 /**
  * Defines an action which an be extended to implement custom actions for a statex application
@@ -103,7 +104,7 @@ export class Action {
             return new Promise(resolve => resolve())
         }
 
-        let observable: Observable<any> = from(subscriptions)
+        let observable: Observable<any> = fromArray(subscriptions)
 
         console.log('observable', observable)
 
@@ -154,9 +155,15 @@ export class Action {
                 return state
             }),
             // make this sharable (to avoid multiple copies of this observable being created)
-            share())
+            share(),
+            catchError( (error: any, caught: Observable<any>) => {
+                console.log('error', error);
+                return undefined;
+            }))
 
-        console.log('Pipe Done');
+        console.log('Pipe Done', observable.forEach(() => console.log('each')))
+
+        observable.subscribe(() => console.log('here'), error => console.log(error), () => 'compleetz');
 
         return new Promise((resolve, reject) => {
             // to trigger observable
