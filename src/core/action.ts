@@ -1,11 +1,11 @@
+
 import Immutable from './immutable'
 
 import {ActionObserver} from './observers'
-import {empty, from, Observable, Observer, throwError} from 'rxjs'
+import {from, Observable, Observer, throwError} from 'rxjs'
 import {catchError, flatMap, map, share, skipWhile} from 'rxjs/operators'
 import {ReplaceableState} from './replaceable-state'
 import {State} from './state'
-import {fromArray} from 'rxjs/internal/observable/fromArray'
 
 /**
  * Defines an action which an be extended to implement custom actions for a statex application
@@ -31,6 +31,7 @@ import {fromArray} from 'rxjs/internal/observable/fromArray'
  * @export
  * @class Action
  */
+
 export class Action {
 
     private static _lastAction: Action
@@ -94,30 +95,20 @@ export class Action {
      * @returns {Observable<S>}
      */
     dispatch(): Promise<any> {
-        console.log('dispatch')
         Action._lastAction = this
         let subscriptions: ActionObserver[] = Action.subscriptions[this.identity]
-        console.log('subscriptions', subscriptions)
 
         if (subscriptions == undefined || subscriptions.length === 0) {
-            console.log('none found')
             return new Promise(resolve => resolve())
         }
 
         let observable: Observable<any> = from(subscriptions)
 
-        console.log('observable', observable)
-
         // convert 'Observable' returned by action subscribers to state
         observable = observable.pipe(
         flatMap((actionObserver: ActionObserver): Observable<any> => {
-                console.log('flatMap', actionObserver)
-                console.log('State.current', State.current)
-                console.log('actionObserver', actionObserver)
-
                 const result = actionObserver(State.current, this)
                 if (!(result instanceof Observable || result instanceof Promise)) {
-                    console.log('change', result)
                     return Observable.create((observer: Observer<any>) => {
                         observer.next(result)
                         observer.complete()
@@ -127,14 +118,11 @@ export class Action {
             }),
             map((state: any) => {
                 // if reducer returns function call that function to resolve state
-                console.log('map:state', state)
-
                 if (typeof state === 'function') return state(State.current)
                 return state
             }),
             map((state: any) => {
                 // merge or replace state
-                console.log('map:state2', state)
                 if (state instanceof ReplaceableState) {
                     // replace the state with the new one if not 'undefined'
                     return Immutable.from((state as ReplaceableState).state)
@@ -145,12 +133,10 @@ export class Action {
             }),
             // wait until all the subscripts have completed processing
             skipWhile((state: any, i: number) => {
-                console.log('skipWhile', state)
                 return i + 1 < subscriptions.length
             }),
             // push 'next' state to 'stateStream' if there has been a change to the state
             map((state: any) => {
-                console.log('map:state3', state)
                 if (state != undefined) {
                     State.next(state)
                 }
@@ -160,14 +146,10 @@ export class Action {
             // make this sharable (to avoid multiple copies of this observable being created)
             share())
 
-        console.log('Pipe Done')
-
-
         return new Promise((resolve, reject) => {
             // to trigger observable
             observable.subscribe(() => {
                 // empty function
-                console.log('emptyFunction::called')
             }, (error) => {
                 // show error
                 if (Action._showError) {
@@ -175,7 +157,6 @@ export class Action {
                 }
                 reject(error)
             }, () => {
-                console.log('resolve')
                 resolve(State.current)
             })
         })
